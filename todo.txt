@@ -1,0 +1,27 @@
+For Home page: 
+  get more images from models and Studios
+  exterior images
+    grafitti
+    park
+    etc
+    
+For Portfolio page
+  Model images
+  more Quinces pics
+  maternity pics
+  
+For Testimonials page:
+  get 10 more Testimonials and translate them
+  maybe incorporate the images for each client... (might be more trouble than it's worth)
+
+For Contact page: 
+    embed google maps in page with the location of the house 
+    add more contact information so clients can reach out.
+    
+  In general: 
+    1. find out how facebook has images that are such high res with only 67kb in order to deflate the size of our image directory.
+    2. Find a way of making the images randomized.
+    
+  
+   side note: facebook is a great place to source pictures
+  

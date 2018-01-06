@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="../../css/core.css">
+    <link rel="stylesheet" type="text/css" href="../../css/elements.css">
+    <link rel="stylesheet" type="text/css" href="../../css/custom.css">
+    <link rel="icon" type="image/png" href="../../favicon.png?version=4">
+  </head>
+  <body>
+    <div id="wrapper" class="container-fluid">
+      <header id="main-header"><a href="../../index.html" class="brand"><span class="name">William Varela</span><span class="title hidden-xs">Photography</span></a>
+        <div class="responsive-nav">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../pages/portfolio/portfolio.html">Portfolio</a></li>
+            <li><a href="../../pages/about/index.html">About</a></li>
+            <li><a href="../../pages/clients/index.html">Testimonials</a></li>
+            <li><a href="../../pages/contact/index.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="fs vcenter">
+        <div style="background-image: url(../../images/contact/01.jpg);" class="bg faded-more"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h1>Contact</h1>
+              <p>If you have any questions, feel free to reach me at my office number. </br></br >You are also welcome to send a message with any concerns.</p> 
+              </br>
+              <p>Phone: (305) 409-4072</p>
+              <p>Office: (305) 822-7402</p></br></br>
+              <p>Address:<a href= "https://www.google.com/maps/place/7135+W+3rd+Ave,+Hialeah,+FL+33014/@25.8871674,-80.291902,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9babb65bf7d7f:0xc22fa2ef93febdfd!8m2!3d25.8871674!4d-80.289708" target="_blank">
+                 7135 West 3rd Ave Hialeah, Florida 33014</p></a>
+            
+            </div>
+            <div class="col-md-5 col-md-offset-2">
+              <form id="form" action="/php/mail.php" class="form mt-md">
+                <label>What's your name? *</label>
+                <input required type="text" name="name" class="form-control">
+                <label>E-mail address *</label>
+                <input required type="email" name="email" class="form-control">
+                <label>Leave me a message.</label>
+                <textarea required name="message" class="form-control"></textarea>
+                <button id="send" type="submit" class="btn btn-default">Send</button><span class="p-md">* These fields are required</span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/vendor.js"></script>
+    <script src="../../js/functions.js"></script>
+  </body>
+</html>
