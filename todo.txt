@@ -1,10 +1,4 @@
-For Home page: 
-  get more images from models and Studios
-  exterior images
-    grafitti
-    park
-    etc
-    
+
 For Portfolio page
   Model images
   more Quinces pics

@@ -1,20 +1,32 @@
 <?php
-$subject    = 'E-mail from example'; // Subject of your email
-$to         = 'edv2@williams.edu'; //Your e-mail address
-$headers    = 'MIME-Version: 1.0' . "\r\n" .
-              'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$message    = 'Name: ' . $_POST['name'] . ' <br/>' .
-              'E-mail: ' . $_POST['email'] . ' <br/>' .
-              'Phone: ' . $_POST['phone'] . ' <br/>' .
-              'Website: ' . $_POST['website'] . ' <br/>' .
-              'Message: ' . $_POST['message'];
+/* Subject and email variables */
 
-if (@mail($to, $subject, $message, $headers))
-{
-  echo 'sent';
-}
-else
-{
-  echo 'failed';
-}
+  $emailSubject = 'Email from website';
+  $webMaster = 'edv2@williams.edu';
+  
+/* Gathering Data Variables */
+  $nameField = $_POST['name'];
+  $emailField = $_POST['email'];
+  $messageField = $_POST['message'];
+  
+  $body = <<<EOD
+<br><hr><br>
+
+Email: $email <br>
+Name: $name <br>
+Message: $message <br>
+EOD;
+
+  $headers = "From: $email\r\n";
+  $headers .= "Content-type: text/html\r\n";
+  $success = mail($webmaster,$emailSubject,$body,$headers);
+  
+  /* Results rendered as HTML */
+  
+  $theResults = <<<EOD
+echo '<script language="javascript">';
+echo 'alert("message successfully sent")';
+echo '</script>';  
+EOD;
+  
 ?>
